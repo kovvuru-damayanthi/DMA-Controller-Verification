@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : dma_top
+Version: V-2023.12
+Date   : Sat Jun 20 10:23:50 2026
+****************************************
+
+
+Library(s) Used:
+
+    No libraries used.
+
+
+Operating Conditions: tt0p78vn40c   Library: saed32rvt_tt0p78vn40c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+dma_top                ForQA             saed32rvt_tt0p78vn40c
+
+
+Global Operating Voltage = 0.78 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   0.0000 uW    (0%)
+  Net Switching Power  = 828.8785 nW  (100%)
+                         ---------
+Total Dynamic Power    = 828.8785 nW  (100%)
+
+Cell Leakage Power     =   0.0000 pW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.0000            0.8289            0.0000            0.8289  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total              0.0000 uW         0.8289 uW         0.0000 pW         0.8289 uW
+1

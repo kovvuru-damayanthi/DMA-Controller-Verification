@@ -1,0 +1,47 @@
+Warning: Design 'dma_top' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : dma_top
+Version: V-2023.12
+Date   : Sat Jun 20 10:23:50 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    No libraries used.
+
+Number of ports:                           70
+Number of nets:                           138
+Number of cells:                            4
+Number of combinational cells:              0
+Number of sequential cells:                 4
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       4
+
+Combinational area:                  0.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              11.726043
+
+Total cell area:                     0.000000
+Total area:                         11.726043
+
+Information: This design contains black box (unknown) components. (RPT-8)
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+dma_top                              0.0000      0.0    0.0000     0.0000  0.0000  dma_top
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                   0.0000     0.0000  0.0000
+
+1
